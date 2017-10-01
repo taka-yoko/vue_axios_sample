@@ -1,5 +1,5 @@
 const BaseURL = "https://api.nytimes.com/svc/topstories/v2/";
-const Apikey = "";
+const Apikey = YOUR_NYT_API_KEY;
 const SECTIONS = "home, arts, automobiles, books, business, fashion, food, health, insider, magazine, movies, national, nyregion, obituaries, opinion, politics, realestate, science, sports, sundayreview, technology, theater, tmagazine, travel, upshot, world"; // From NYTimes
 
 function buildUrl(url) {
